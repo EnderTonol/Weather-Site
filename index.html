@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Sources/celsius.png" type="image/x-icon">
+    <title>QVIS WEATHER SITE</title>
+    <link rel="stylesheet" href="WetherStyle.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div id="alert">Developed by Quddus</div>
+    <div class="it1">
+        <input type="text" id="inp" value="islamabad"><br>
+        <button onclick="weather()">Search</button>
+    </div>
+
+    <div class="it2">
+        <div class="sit1">
+             <p id="city">City</p>
+        <div>
+            <p id="temp">°C</p>
+            <img src="/" alt="icon" id="icon">
+        </div>
+            <p id="wind">wind</p>
+            <p id="type">Type</p>
+            <p id="uv">UV</p>
+            <p id="humd"></p>
+            <div class="timD">
+               <p id="time">Time</p>
+            </div>
+            <p id="lat">Latitude</p>
+            <p id="log">Longitude</p>
+
+        </div>
+        <div class="sit2">
+            <p>Graph</p>
+            <canvas id="graph"></canvas>
+        </div>
+    </div>
+    </div>
+    
+
+
+    <script src="Back-end.js"></script>
+</body>
+</html>
