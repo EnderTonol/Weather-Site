@@ -8,4 +8,4 @@ I have Developed a Weather app by Fetching API from weatherAPI.com that give mor
 ### FrameWorks
 1. Chart.js
 # Live Demo
-(Weather Site)[https://qvis-weather-site.netlify.app/]
+(Weather Site)["https://qvis-weather-site.netlify.app/"]
